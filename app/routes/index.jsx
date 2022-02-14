@@ -3,6 +3,7 @@ const Iframe = ({ site, src }) => (
     <h1>{site}</h1>
     <iframe
       {...{ src }}
+      sandbox=""
       referrerPolicy="strict-origin-when-cross-origin"
       style={{
         display: "block",
