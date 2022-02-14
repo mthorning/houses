@@ -23,6 +23,21 @@
   status = 200
 
 [[redirects]]
+  from = "/purplebricks/*"
+  to = "https://www.purplebricks.co.uk/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/yourmove/*"
+  to = "https://www.your-move.co.uk"
+  status = 200
+
+[[redirects]]
+  from = "/home/*"
+  to = "https://www.home.co.uk"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
