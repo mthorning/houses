@@ -3,7 +3,7 @@ const Iframe = ({ src }) => (
     {...{ src }}
     style={{
       display: "block",
-      width: "100%",
+      width: "90vw",
       height: "400px",
       margin: "0 auto 16px",
     }}
