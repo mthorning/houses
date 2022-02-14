@@ -8,18 +8,18 @@
   port = 3000
 
 [[redirects]]
-  from = "/zoopla"
-  to = "https://www.zoopla.co.uk/for-sale/houses/truro/?beds_min=2&page_size=25&price_max=550000&price_min=300000&view_type=list&q=Truro%2C%20Cornwall&radius=0&results_sort=newest_listings&search_source=facets"
+  from = "/zoopla/*"
+  to = "https://www.zoopla.co.uk/:splat"
   status = 200
 
 [[redirects]]
-  from = "/rightmove"
-  to = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1365&minBedrooms=2&maxPrice=550000&minPrice=300000&radius=3.0&sortType=6&propertyTypes=detached%2Csemi-detached%2Cterraced&primaryDisplayPropertyType=houses&includeSSTC=false&mustHave=&dontShow=&furnishTypes=&keywords="
+  from = "/rightmove/*"
+  to = "https://www.rightmove.co.uk/:splat"
   status = 200
 
 [[redirects]]
-  from = "/onthemarket"
-  to = "https://www.onthemarket.com/for-sale/2-bed-property/truro/?prop-types=bungalows&prop-types=detached&prop-types=semi-detached&radius=3.0&view=grid"
+  from = "/onthemarket/*"
+  to = "https://www.onthemarket.com/:splat"
   status = 200
 
 [[redirects]]
