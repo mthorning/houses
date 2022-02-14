@@ -1,11 +1,12 @@
 const Iframe = ({ src }) => (
   <iframe
     {...{ src }}
+    referrerPolicy="strict-origin-when-cross-origin"
     style={{
       display: "block",
       width: "90vw",
       height: "100vh",
-      margin: "0 auto 16px",
+      margin: "0 0 16px",
     }}
   />
 );
