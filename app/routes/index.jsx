@@ -8,7 +8,7 @@ const Iframe = ({ domain, site, src }) => (
       style={{
         display: "block",
         width: "90vw",
-        height: "100vh",
+        height: "90vh",
         margin: "0 0 16px",
       }}
     />
