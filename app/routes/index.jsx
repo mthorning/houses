@@ -1,4 +1,4 @@
-const Iframe = ({ site, src }) => (
+const Iframe = ({ domain, site, src }) => (
   <a style={{ display: "block" }} href={domain + src} target="_blank">
     <h1>{site}</h1>
     <iframe
