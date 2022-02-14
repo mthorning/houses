@@ -1,14 +1,16 @@
 const Iframe = ({ src }) => (
-  <iframe
-    {...{ src }}
-    referrerPolicy="strict-origin-when-cross-origin"
-    style={{
-      display: "block",
-      width: "90vw",
-      height: "100vh",
-      margin: "0 0 16px",
-    }}
-  />
+  <a href="src">
+    <iframe
+      {...{ src }}
+      referrerPolicy="strict-origin-when-cross-origin"
+      style={{
+        display: "block",
+        width: "90vw",
+        height: "100vh",
+        margin: "0 0 16px",
+      }}
+    />
+  </a>
 );
 
 export default function Index() {
