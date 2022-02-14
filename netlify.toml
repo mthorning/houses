@@ -18,6 +18,11 @@
   status = 200
 
 [[redirects]]
+  from = "/onthemarket"
+  to = "https://www.onthemarket.com/for-sale/2-bed-property/truro/?prop-types=bungalows&prop-types=detached&prop-types=semi-detached&radius=3.0&view=grid"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
