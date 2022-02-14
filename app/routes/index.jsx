@@ -1,7 +1,7 @@
 const Iframe = ({ src }) => (
   <iframe
     {...{ src }}
-    style={{ display: "block", width: "100%", margin: "16px" }}
+    style={{ display: "block", width: "100%", height: "400px", margin: "16px" }}
   />
 );
 
