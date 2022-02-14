@@ -13,6 +13,11 @@
   status = 200
 
 [[redirects]]
+  from = "/rightmove"
+  to = "https://www.rightmove.co.uk/property-for-sale/find.html?locationIdentifier=REGION%5E1365&minBedrooms=2&maxPrice=550000&minPrice=300000&radius=3.0&sortType=6&propertyTypes=detached%2Csemi-detached%2Cterraced&primaryDisplayPropertyType=houses&includeSSTC=false&mustHave=&dontShow=&furnishTypes=&keywords="
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/.netlify/functions/server"
   status = 200
