@@ -1,5 +1,5 @@
 const Iframe = ({ site, src }) => (
-  <a href="src">
+  <a style={{ display: "block" }} href={src}>
     <h1>{site}</h1>
     <iframe
       {...{ src }}
