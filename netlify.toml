@@ -12,6 +12,11 @@
   to = "https://www.zoopla.co.uk/for-sale/houses/truro/?beds_min=2&page_size=25&price_max=550000&price_min=300000&view_type=list&q=Truro%2C%20Cornwall&radius=0&results_sort=newest_listings&search_source=facets"
   status = 200
 
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
+
 [[headers]]
   for = "/build/*"
   [headers.values]
