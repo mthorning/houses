@@ -31,7 +31,7 @@ export default function Index() {
       <Iframe
         domain="https://www.onthemarket.com"
         site="onthemarket"
-        src="/for-sale/2-bed-property/truro/?prop-types=bungalows&prop-types=detached&prop-types=semi-detached&radius=3.0&view=grid"
+        src="/for-sale/2-bed-property/truro/?max-price=600000&min-price=300000&prop-types=bungalows&prop-types=detached&prop-types=semi-detached&radius=3.0&view=grid"
       />
       <Iframe
         domain="https://www.purplebricks.co.uk"
