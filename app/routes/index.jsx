@@ -39,11 +39,6 @@ export default function Index() {
         src="/search/property-for-sale/cornwall/truro?page=1&sortBy=2&location=truro&searchRadius=3&searchType=ForSale&soldOrLet=false&priceFrom=300000&priceTo=600000&bedroomsFrom=2&type=1&latitude=50.263195&longitude=-5.051041&betasearch=true"
       />
       <Iframe
-        domain="https://www.your-move.co.uk"
-        site="yourmove"
-        src="/properties-for-sale/truro/!/location/truro~5/price_from/300000/price_to/600000/bedrooms/2/type/1,2/sort/most_recent"
-      />
-      <Iframe
         domain="https://www.home.co.uk"
         site="home"
         src="/search/results.htm?high=600000&low=300000&minbeds=2&maxbeds=&lat=50.2665&long=5.05096&location=truro&TOWN_SEARCH=1&MAP_SEARCH=&detached=true&semi=true&radius=2&sort=FOUND_DESC&found_since=&inc_sold=0&loose=1&showmap=0"
